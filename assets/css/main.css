@@ -698,23 +698,24 @@ input, select, textarea {
 			display: block;
 			margin: 2.5rem 0;
 			width: 100%;
-			object-fit: contain;
 			
 		}
 
 			.image.main img {
 				max-width: 100%;
-				height: auto;
 				margin: 0 auto;
+				
 				
 			}
 
 		.gislides {
 
 			display: none;
-			object-fit: scale-down;
+			max-height: 85vh;
 		}
 
+
+/*These three classes only used to set the great idea website pictures as background images. Not surrently used*/
 		.imgdesk {
 			background-image: url(images/giwdesk.png);
 			/* border: groove 2px darkblue; */
@@ -762,7 +763,7 @@ input, select, textarea {
 			padding-top: 2%; */
 			vertical-align: middle;
 		}
-
+/*End of background image classes*/
 
 
 		@media screen and (max-width: 736px) {
